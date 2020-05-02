@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment1 using Bootstrap</title>
+    <style>
+      .cls3{
+
+        padding:10px;
+        display:block;
+      }
+      .cls2{
+        padding: 150px ;
+		
+      }
+      #content1{
+		background-color:brown;
+		padding-bottom: 100px;
+      }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-8 text-white">
+          <div id="content1">
+               <a class="navbar-brand text-white" href="#"><strong> Dropbox</strong></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+ 
+				
+			<button type="button" class="btn btn-link text-white">For Teams</button>
+			<button type="button" class="btn btn-link text-white">For Individuals</button>
+
+            <h1 class="cls2">Put your creative energy to work, with Dropbox</h1>
+			
+			<blockquote class="blockquote text-center">
+            <p>Dropbox is a modern workspace designed to reduce busywork-so you can focus on the things that matter.</p>
+			</blockquote>
+          </div>
+        </div>
+        <div class="col-md-4 text-black">
+          <a class="navbar-brand text-black">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+
+			<button type="button" class="btn btn-link text-black">Sign in</button>
+			<button type="button" class="btn btn-link text-black">Download</button>
+
+    
+          <h1>Sign up</h1>
+          <p>or<a class="nav-link" href="#">sign in to your account</a></p>
+          <form>
+          <div class="form-group">
+
+            <input type="text" class="form-control" id="firstName" placeholder="First name">
+          </div>
+          <div class="form-group">
+
+            <input type="text" class="form-control" id="lastName" placeholder="Last name">
+          </div>
+          <div class="form-group">
+
+            <input type="email" class="form-control" id="email" placeholder="Email">
+          </div>
+          <div class="form-group">
+
+            <input type="text" class="form-control" id="password" placeholder="Password">
+          </div>
+
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">I agree to the<a class="nav-link" href="#"><strong><h5>Dropbox Terms</h5></strong></a></label>
+          </div>
+			<br>
+          <button type="submit" class="btn btn-primary btn-lg btn-block cls3">Sign Up</button><br>
+        </form><br>
+
+		<button type="button" class="btn btn-outline-dark btn-lg btn-block cls3">Sign up with Google</button><br>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
